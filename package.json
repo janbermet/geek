@@ -1,0 +1,24 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "regression": "npx cypress run",
+    "regression_dashboard": "npx cypress  run --spec --record --keya09a3a14-e0dd-467b-8012-07be17815247",
+    "smoke_dashboard": "npx cypress run --spec cypress/e2e/methods/check.js --headed --browser chromea09a3a14-e0dd-467b-8012-07be17815247"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.6.0",
+    "mochawesome": "^7.1.3"
+  }
+}
+
+
+
+
+
+
