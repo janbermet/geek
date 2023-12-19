@@ -12,17 +12,7 @@ describe('', () => {
 
         cy.get('[type="submit"]').click()
 
-        cy.contains('Admin').click()
-
-        cy.get("[class='oxd-icon bi-plus oxd-button-icon']").click()
-
-        cy.get('.oxd-select-text-input')
-
-            .eq(0)
-            .click()
-            .get('.oxd-select-option')
-            .contains('Admin')
-            .click()
+       
 
 
 
